@@ -1,0 +1,6 @@
+.header {
+  background-image: url("../../public/images/bg-main-mobile.png");
+  background-size: cover;
+  padding: 15px 15px;
+  max-height: 300px;
+}

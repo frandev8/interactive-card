@@ -1,0 +1,23 @@
+.frontCard {
+  /* background-color: bisque; */
+  background-image: url("../../public/images/bg-card-back.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right ;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 764px) {
+
+
+  .frontCard {
+    grid-column-start: 1;
+    grid-column-end: -2;
+    margin-bottom: 15px;
+    background-size: cover;
+  }
+}

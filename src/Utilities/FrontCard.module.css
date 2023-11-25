@@ -1,0 +1,27 @@
+.backCard {
+  /* background-color:  aqua; */
+  background-image: url("../../public/images/bg-card-front.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left ;
+  grid-column-start: 1;
+  grid-column-end: -2;
+  grid-row-start: 5;
+  grid-row-end: -1;
+  border-radius: 8px;
+
+}
+
+
+@media only screen and (min-width: 764px) {
+
+
+  .backCard {
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 5;
+    grid-row-end: -1;
+    margin-top: 15px;
+
+  }
+}
